@@ -6,7 +6,7 @@ const Reverse = ({ text }) => (
     {text.split('').reverse().join('')}
   </span>
 );
-
+console.log('test');
 const App = () => (
   <div>
     <Reverse text="Hello World" />
